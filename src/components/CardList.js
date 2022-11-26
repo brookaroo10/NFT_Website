@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ( {robots} ) =>{
+	//artificially generate an error: if (true) {throw new Error('Noooo!');}
 	return (
 		<div>
 			{
